@@ -139,3 +139,26 @@ form {
     font-size: 16px;
     font-family: vazirmatn, sans-serif;
 }
+
+@media(max-width:480px) {
+    #banner h1 {
+        font-size: 16px;
+        justify-content: space-around;
+    }
+
+    #height-weight-box {
+        width: 100%;
+    }
+
+    #age-box {
+        width: 100%;
+    }
+
+    #calculate-box {
+        width: 100%;
+    }
+
+    main {
+        margin: 20% 15px;
+    }
+}
