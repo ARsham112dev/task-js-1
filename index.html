@@ -20,7 +20,52 @@
         <h1>محاسبه BMI. شاخص توده بدنی</h1>
         <hr />
       </section>
-
+      <form action="">
+        <div id="height-weight-box">
+          <div id="height-box">
+            <label for="height">قد(سانتی متر)</label>
+            <input
+              type="text"
+              placeholder="مثال 170"
+              name="height"
+              id="height-input"
+            />
+          </div>
+          <div id="weight-box">
+            <label for="weight">وزن(کیلوگرم)</label>
+            <input
+              type="text"
+              placeholder="مثال 65"
+              name="weight"
+              id="weight-input"
+            />
+          </div>
+        </div>
+        <div id="age-box">
+          <div id="over-nineteen-age-box">
+            <input
+              value="over-nineteen-age"
+              type="radio"
+              name="over-nineteen-age"
+              id="over-nineteen-age-input"
+            />
+            <label for="over-nineteen-age">سن 19 سال‌یابالاتر</label>
+          </div>
+          <div id="under-nineteen-age-box">
+            <input
+              value="under-nineteen-age"
+              type="radio"
+              name="under-nineteen-age"
+              id="under-nineteen-age-input"
+            />
+            <label for="under-nineteen-age">سن کمتر از 19</label>
+          </div>
+        </div>
+        <div id="calculate-box">
+          <hr />
+          <button value="calculate" id="calculate-btn">محاسبه</button>
+        </div>
+      </form>
     </main>
   </body>
 </html>

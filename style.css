@@ -32,3 +32,110 @@ main {
     color: var(--title-input);
     font-size: 20px;
 }
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#height-weight-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+}
+
+#height-weight-box label {
+    white-space: nowrap;
+    font-size: 18px;
+    color: var(--title-input);
+}
+
+#height-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#weight-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+#height-input {
+    border-radius: 1rem;
+    border: 2px solid gold;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    font-weight: bold;
+    height: 30px;
+    font-family: vazirmatn, sans-serif;
+}
+
+#weight-input {
+    border-radius: 1rem;
+    border: 2px solid gold;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    font-weight: bold;
+    height: 30px;
+    font-family: vazirmatn, sans-serif;
+}
+
+#age-box {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 15px;
+}
+
+#age-box label {
+    font-size: 14px;
+    color: var(--title-input);
+    white-space: nowrap;
+}
+
+#age-box input {
+    width: 15px;
+    height: 15px;
+}
+
+#under-nineteen-age-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#over-nineteen-age-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#calculate-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    gap: 12px;
+}
+
+#calculate-box hr {
+    width: 40%;
+    height: 2px;
+    background-color: var(--title-input);
+}
+
+#calculate-btn {
+    width: 60%;
+    background-color: var(--title-input);
+    color: #ffff;
+    height: 35px;
+    border-radius: 1rem;
+    border: none;
+    font-size: 16px;
+    font-family: vazirmatn, sans-serif;
+}
